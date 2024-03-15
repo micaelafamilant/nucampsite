@@ -13,7 +13,7 @@ const Partner = ({ partner }) => {
         )
 
     }
-
+    return null;
 };
 
 export default Partner;
