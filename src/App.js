@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { fetchCampsites } from "./features/campsites/campsitesSlice";
 
+
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
